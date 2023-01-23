@@ -73,7 +73,10 @@
     width: 100%;
     justify-content: flex-end;
   }
-  .hamburger {
+ 
+  
+   /*hamburger*/
+   .hamburger {
     margin: 8px;
     margin-right:13.5cm;
     width: 50px;
@@ -82,13 +85,23 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  
-  .line {
-    margin-top: 14px;
-    width: 70%;
-    height: 8px;
-    background-color: rgb(255, 255, 255);
+   .menu-icon {
+    width: 30px;
+    height: 5px;
+    display: inline-block;
+    width: 100%;
   }
+  
+  .bar1, .bar2, .bar3 {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(23, 0, 0);
+    margin: 5px ;
+    margin-right: 12cm;
+  }
+ 
+
+  
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -102,6 +115,16 @@
     border-style:groove;
   }
   
+@media only screen and (max-width: 480px) {
+  .nav {
+  list-style: none;
+  width: 340px;
+  margin: 16px 10px 0 10px;
+}
+}
+  
+
+
   .nav-list {
     display: flex;
     margin-right: 2rem;
